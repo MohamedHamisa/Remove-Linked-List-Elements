@@ -8,7 +8,7 @@ class Solution:
                 start.next = start.next.next
             else:
                 start = start.next         
-        return dummy.next   (head)
+        return dummy.next   
 
         '''
         When traverse, always look at the next element in list, because if we already at element with value equal to val, we can not delete it, we need to go back somehow.
